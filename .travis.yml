@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - "9.3.0"
+- 9.3.0
 deploy:
   provider: releases
-  api_key: "17c92f091df7791276969335f519bee8e6de0176"
-  skip_cleanup: true
+  api_key:
+    secure: ogmQjL7fXOwK3gmn7LkSxxlyEsqyclM/F/5bEKmcYsRpEmHGsqPC2smHTC5FPraq/ec6qCf5/NPCOXBpDLk6jWOdZ46nUDhscYMmBBYxahB5HjqMEMjRaezVIER/EyuVy3f8jkusJPSQ5qZioJj6oleEvjZPoq9Be9Yqngyy6IDnfZ7TS0SnFWWQzf0uoj/KWsiEvgXVTLtXvRd7mR/+yObTM3gRgfW9672K6z2iyB0MduaQnbJGgKVC4QE3BeWC0n7ofDAFoPyShyNczrE6/OSnmZ8GSPNUKcCnJavNI66VHqmb5nerMJGWtBYnktiUxV34h1SoZPYnL2gavyLacbtL4IbFVFKpzeh9d9iLErQcQg8txC3Ldyce5X6/ZgAF1mQCnl3/z9IfmTvrCqvMBRrW7ehgzELlydpPZkvVRCYubTRZx3+X03zDFyF/mgBsvo9HiiNQU064NHlsQWlqE64LbTE3iu7jEgU1txEX/46ignTdGrKa5M/kqEOKdN5tlKQzQJGC2/fUsp8MvMbYPBBBeDkLtIPlj+2rN2RGlDxzPeXSvl4vSubOZwm5xU6KSy5axQ++3hfxP+sOgPRZShrxGKWKkgjFM2N17xM0HGXm0m0Q+VfsT3girOJu9Xt+tvtUdL29PJTxgPtAfqI0MKyvfzNRBxunWCw+uCpjPaM=
+  file: ''
+  on:
+    repo: DysonLinDev/travis-ci-poc
