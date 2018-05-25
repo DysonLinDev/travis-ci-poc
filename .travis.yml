@@ -8,7 +8,7 @@ deploy:
   on:
     repo: DysonLinDev/travis-ci-poc
 after_deploy:
-  - provider: script
-    script: ./slack.sh
+  provider: script
+  script: ./slack.sh
 
        
