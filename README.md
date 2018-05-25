@@ -31,6 +31,6 @@ package.json
 11. go to `https://slack.github.com/` and connect your repo with slack channel.
 12. add `after_success` in `.travis.yml` for trigging slack.
 13. add `slack.sh` for sending release message, and remember to add access permission for this file.
-14. ##TODO## still can't pass release notes or pull request information
+14. `TODO still can't pass release notes or pull request information`
 15. replace `travis services` with `travis app`.
 
