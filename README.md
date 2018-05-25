@@ -27,6 +27,7 @@ package.json
 ```
 8. install travis cli `command line interface` in your local and run `travis setup releases`.
 9. everytime we push commit to `master` travis will check and auto release a version for us.
-10. let's integrate with `Slack`.
+10. let's try to integrate with `Slack`.
 11. go to `https://slack.github.com/` and connect your repo with slack channel.
 12. add `after_success` in `.travis.yml` for trigging slack.
+13. add `slack.sh` for sending release message, and remember to add access permission for this file.
