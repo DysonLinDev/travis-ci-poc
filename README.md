@@ -1,2 +1,2 @@
 # travis-ci-poc
-https://travis-ci.org/DysonLinDev/travis-ci-poc.svg?branch=master
+[![Build Status](https://travis-ci.org/DysonLinDev/travis-ci-poc.svg?branch=master)](https://travis-ci.org/DysonLinDev/travis-ci-poc)
