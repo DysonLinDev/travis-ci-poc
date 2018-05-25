@@ -29,4 +29,4 @@ package.json
 9. everytime we push commit to `master` travis will check and auto release a version for us.
 10. let's integrate with `Slack`.
 11. go to `https://slack.github.com/` and connect your repo with slack channel.
-12. add `notification` in `.travis.yml`.
+12. add `after_success` in `.travis.yml` for trigging slack.
