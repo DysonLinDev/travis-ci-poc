@@ -25,3 +25,7 @@ package.json
     "test": "echo pass"
   }
 ```
+8. install travis cli `command line interface` in your local and run `travis setup releases`.
+9. everytime we push commit to `master` travis will check and auto release a version for us.
+10. let's integrate with `Slack`.
+11. go to `https://slack.github.com/` and connect your repo with slack channel.
