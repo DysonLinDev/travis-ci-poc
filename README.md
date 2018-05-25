@@ -7,3 +7,13 @@ This is simeple practice about integrating `travis-ci` and `github`.
 2. go to settings and click `integration and services` tag on the left side.
 3. click add service and chose `travis ci`.
 4. go to travis and chose the name of repo, and then active travis.
+5. Now, we get a failed build. -> that's because we didn't set up our `.travis.yml`.
+6. add `.travis.yml`.
+
+.travis.yml
+```
+language: node_js
+node_js:
+  - "9.3.0"
+
+```
