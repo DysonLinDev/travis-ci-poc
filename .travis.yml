@@ -3,5 +3,5 @@ node_js:
   - "9.3.0"
 deploy:
   provider: releases
-  api_key: "01af86c6e19e1ad0f1491fdb251bfc96f8a7a29b"
+  api_key: "17c92f091df7791276969335f519bee8e6de0176"
   skip_cleanup: true
