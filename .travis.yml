@@ -8,7 +8,8 @@ deploy:
   on:
     repo: DysonLinDev/travis-ci-poc
 after_deploy:
-- curl -X POST 
+- "curl -X POST 
        -H 'Content-type: application/json' \
        --data '{"text":"This is a line of text.\nAnd this is another one."}' \
-       https://hooks.slack.com/services/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
+       https://hooks.slack.com/services/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"
+       
