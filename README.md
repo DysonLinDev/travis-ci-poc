@@ -2,3 +2,8 @@
 
 
 This is simeple practice about integrating `travis-ci` and `github`.
+
+1. create a public repo in github.
+2. go to settings and click `integration and services` tag on the left side.
+3. click add service and chose `travis ci`.
+4. go to travis and chose the name of repo, and then active travis.
