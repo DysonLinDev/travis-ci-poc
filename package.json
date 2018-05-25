@@ -1,0 +1,10 @@
+{
+  "name": "travis-ci-poc",
+  "author": "Dyson",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev",
+    "test": "echo pass"
+  }
+}
