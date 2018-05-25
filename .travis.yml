@@ -9,6 +9,7 @@ deploy:
     repo: DysonLinDev/travis-ci-poc
 after_deploy:
   provider: script
+  skip_cleanup: true
   script: ./slack.sh
 
        
